@@ -33,6 +33,8 @@ Subsequently, in the beginning of 2016, there is another break where the stock p
 ### 1.2.5 RSI Analysis
 For the RSI analysis of AMD stocks:
 
+![Trend Analysis by using RSI](https://github.com/aratrika02/stock-analysis-project/blob/main/rsi_amd.png)
+
 * Relatively stable, significant upward trend starts after 2016 but this period is illustrates a lot of volatility by the frequent price drops and rise. 
 * The red triangles signal overbought conditions and many of these points are followed by price drops, confirming the overbought signal's relevance.
 * Green triangles mark oversold conditions indicating a potential price rebound and is confirmed as many of the points  are followed by an upward trend.
@@ -41,6 +43,9 @@ For the RSI analysis of AMD stocks:
 
 
 ### 1.2.6 Combining RSI and MAs for further analysis:
+
+![Trend Analysis by using RSI+SMA](https://github.com/aratrika02/stock-analysis-project/blob/main/sma_rsi_amd.png)
+
 For AMD stocks: 
 - Green triangle indicate the 50 day SMA crossing over the 200 day SMA indicating a bullish period (seen predominantly in 2016 in the Trend Analysis using SMAs plot).
 - Red triangles highlight the 50 day SMA crossing below 200 day SM indicating the onset of a bearish period of declining stock prices.
@@ -50,6 +55,8 @@ For AMD stocks:
 
 ### 4.1 Backtesting Analysis for Meta
 
+![Backtesting Analysis of META](https://github.com/aratrika02/stock-analysis-project/blob/main/meta.png)
+
 - The portfolio value increases consistently over the observed time period, indicating that the trading strategy is profitable overall.
 - The absence of sharp declines in portfolio value suggests that the strategy effectively avoids significant losses or risks.
 - The portfolio value appears to grow at an accelerating rate over time, which could be due to compounding gains as the reinvested profits amplify returns.
@@ -58,6 +65,8 @@ For AMD stocks:
 We start with a portfolio value of $10,000 in 2013 and end up at nearly 21 million dollars in 2023.
 
 ### 4.2 Backtesting Analysis for NVIDIA
+![Backtesting Analysis of NVIDIA](https://github.com/aratrika02/stock-analysis-project/blob/main/nvidia.png)
+
 - Significant jumps in the portfolio value, particularly noticeable in the mid-2010s, could be an indication of periods of strong market trends or highly successful predictions by the strategy.
 (NVIDIA actually had one of its most profitable years in 2016 with an almost 233% increase in its stock returns [7]. This could be attributed to NVIDIA’s advancements in GPUs with applications in gaming, data centers and most importantly, AI hardware development.)
 - The increasing steepness of the curve toward later years highlights the compounding effect of reinvested gains, where higher portfolio values lead to amplified returns over time.
@@ -66,7 +75,7 @@ We start with a portfolio value of $10,000 in 2013 and end up at nearly 21 milli
 We start with a portfolio value of $10,000 in 2003 and end up at nearly 30 million dollars in 2016 and 66 million dollars in 2023. 
 
 To corroborate the immense stock returns in case of NVIDIA, the 50-day and 200-day SMAs has been plotted to identify bullish and bearish trends. The high returns of NVIDIA stocks can be corroborated by the dominant bullish periods starting from 2016. (see _4.2.1 Exploratory Data Analysis For NVIDIA_ in the notebook)
-
+![SMA analysis of NVIDIA](https://github.com/aratrika02/stock-analysis-project/blob/main/sma_nvidia.png)
 
 
 
