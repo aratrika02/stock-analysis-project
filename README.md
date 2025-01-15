@@ -10,6 +10,8 @@ _Note: Corresponding sections of the notebook are mentioned in the following hea
 
 ### 1.2.4 Using Moving Averages for Stock Trend Analysis
 
+![Trend Analysis by using SMAs](https://github.com/aratrika02/stock-analysis-project/blob/main/sma_amd.png)
+
 For the Trend Analysis plot of AMD, the following insights can be derived:
 
 The plot depicts a mostly consistent trend except in 2014-2015.
